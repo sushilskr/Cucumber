@@ -14,7 +14,7 @@ import io.cucumber.testng.CucumberOptions;
 		plugin= {"html:target/cucumber.html","rerun:target/failed_scenarios.txt"},
 		tags="@MulitpleItemOrder"
 		)
-//tags="@MulitpleItemOrder" "@PlaceOrder" "@MulitpleItemOrder" "@OffersPage"
+//tags="@MulitpleItemOrder" "@PlaceOrder"  "@OffersPage"
 //,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 public class TestNGRunner extends AbstractTestNGCucumberTests {
 	

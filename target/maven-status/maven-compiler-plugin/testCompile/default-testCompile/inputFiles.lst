@@ -1,5 +1,7 @@
 C:\Users\sushi\eclipse-workspace\Automation\src\test\java\stepDefinitions\OffersPageStepDefinition.java
 C:\Users\sushi\eclipse-workspace\Automation\src\test\java\utils\TestContextSetup.java
+C:\Users\sushi\eclipse-workspace\Automation\src\test\java\pageObjects\FlightBookingHomePage.java
+C:\Users\sushi\eclipse-workspace\Automation\src\test\java\stepDefinitions\FlightBookingHomePageStepDefinition.java
 C:\Users\sushi\eclipse-workspace\Automation\src\test\java\stepDefinitions\LandingPageStepDefinition.java
 C:\Users\sushi\eclipse-workspace\Automation\src\test\java\stepDefinitions\Hooks.java
 C:\Users\sushi\eclipse-workspace\Automation\src\test\java\pageObjects\CheckoutPage.java
