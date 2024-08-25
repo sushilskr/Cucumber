@@ -6,6 +6,7 @@ Feature: Compare the product name from landing and offers page
     When User search the product with <name> on landing page
     Then User search the product with <name> on offers page
     And User compare the product name from offer page with landing page product name
+    #Need to add new features here
 
     Examples:
     |     name     |
