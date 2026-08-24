@@ -45,7 +45,7 @@ public class FlightBookingHomePageStepDefinition {
 		Thread.sleep(5000);
 	}
 	@Then("User see the number of flight available")
-	public void user_see_the_number_of_flight_available() {
+	public void userSeeTheFlights() {
 	}
 
 

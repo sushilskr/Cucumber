@@ -2,6 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import utils.GenericUtils;
 
 public class LandingPage {
 	
@@ -18,16 +19,15 @@ public class LandingPage {
 	By addToCart = By.xpath("//button[contains(text(),\"ADD TO CART\")]");
 	
 	public void searchItem(String shortName) throws InterruptedException {
-		driver.findElement(search).sendKeys(shortName);
-		Thread.sleep(1000);
+        GenericUtils.waitForElementDisplay(search).sendKeys(shortName);
 	}
 	
 	public String  getProductName() {
-		return driver.findElement(productName).getText();
+        return GenericUtils.waitForElementDisplay(productName).getText();
 	}
 	
 	public void selectTopDeals() {
-		driver.findElement(By.linkText("Top Deals")).click();
+        GenericUtils.waitForElementDisplay(topDeals).click();
 	}
 	
 	public void incrementItem(String count) throws InterruptedException {

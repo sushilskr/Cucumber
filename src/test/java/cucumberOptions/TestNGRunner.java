@@ -11,8 +11,9 @@ import io.cucumber.testng.CucumberOptions;
 		glue="stepDefinitions", 
 		monochrome=true,
 		dryRun = false,
-		plugin= {"html:target/cucumber.html","rerun:target/failed_scenarios.txt"},
-		tags="@MulitpleItemOrder"
+		plugin= {"html:target/cucumber.html",
+                "rerun:target/failed_scenarios.txt",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 		)
 //tags="@MulitpleItemOrder" "@PlaceOrder"  "@OffersPage"
 //,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
